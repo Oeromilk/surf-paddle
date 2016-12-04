@@ -5824,6 +5824,15 @@ img {
   overflow: hidden;
   background-size: cover; }
 
+#heading:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 96, 172, 0.6); }
+
 #heading-title {
   color: white;
   padding-top: 100px;
@@ -5833,7 +5842,22 @@ img {
 .heading-text {
   display: inline-block;
   padding-top: 15px;
-  color: grey; }
+  color: #083452; }
+
+#body-padding {
+  padding-top: 25px;
+  padding-bottom: 25px; }
+
+#body-heading {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 48px;
+  color: #083452; }
+
+blockquote {
+  color: #106DB3; }
+
+.author-name {
+  color: #106DB3; }
 
 .author-one {
   height: 24px;
@@ -5849,8 +5873,35 @@ img {
   border-radius: 50%;
   overflow: hidden; }
 
+#sidebar-heading {
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  color: #106DB3; }
+
+#social-side {
+  margin-bottom: 25px; }
+
+#social-side div:hover {
+  background-color: #106DB3; }
+
 .social {
+  border-radius: 5px;
+  color: white;
+  padding: 8px;
+  background-color: #A3B3BF;
   display: inline-block; }
+
+.icon {
+  border-radius: 5px; }
+
+#social-box .icon {
+  padding: 8px;
+  color: white;
+  display: inline-block;
+  background-color: #5E686F; }
+
+#social-box .social:hover {
+  background-color: #106DB3; }
 
 .ad-description {
   text-align: right; }
@@ -5861,12 +5912,43 @@ img {
 <img class="col-sm-3" src="https://static.pexels.com/photos/185847/pexels-photo-185847.jpeg" alt="portrait" />
 <img class="col-sm-3" src="https://static.pexels.com/photos/30697/pexels-photo-30697.jpg" alt="bottles" />
 */
+#post-border {
+  border-top: 1px solid #5E686F; }
+
+#post-heading {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 48px;
+  font-family: 'Open Sans', sans-serif;
+  color: #083452; }
+
 .posts {
+  color: #083452;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
   position: relative;
   background-size: cover;
   height: 250px;
   display: flex;
   align-items: flex-end; }
+
+#post-container {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+#post-container div::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 96, 172, 0.6); }
+
+#post-container div:hover {
+  background-color: transparent;
+  color: white; }
 
 #post-one {
   background-image: url("https://static.pexels.com/photos/111085/pexels-photo-111085.jpeg"); }
@@ -5879,6 +5961,12 @@ img {
 
 #post-four {
   background-image: url("https://static.pexels.com/photos/30697/pexels-photo-30697.jpg"); }
+
+#footer-nav {
+  color: #5E686F;
+  background-color: #083452;
+  padding-top: 25px;
+  padding-bottom: 25px; }
 
 #bottom-nav div {
   display: inline-block; }
