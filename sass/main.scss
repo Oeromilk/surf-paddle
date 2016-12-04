@@ -1,0 +1,97 @@
+/* Bootstrap Variables */
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+/* Import Bootstrap */
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald');
+
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+*/
+
+img {
+  width: 100%;
+}
+
+#heading {
+  height: 500px;
+  background-image: url('https://static.pexels.com/photos/35007/pexels-photo.jpg');
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+}
+
+#heading-title {
+  color: white;
+  padding-top: 100px;
+  font-size: 96px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.heading-text {
+  display: inline-block;
+  padding-top: 15px;
+  color: grey;
+}
+
+.author-one {
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.author-two {
+  align-content: center;
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.social {
+  display: inline-block;
+}
+
+.ad-description {
+  text-align: right;
+}
+
+/*
+<img class="col-sm-3" src="https://static.pexels.com/photos/111085/pexels-photo-111085.jpeg" alt="surfer" />
+<img class="col-sm-3" src="https://static.pexels.com/photos/1862/summer-sunshine-alcohol-drink.jpg" alt="beer" />
+<img class="col-sm-3" src="https://static.pexels.com/photos/185847/pexels-photo-185847.jpeg" alt="portrait" />
+<img class="col-sm-3" src="https://static.pexels.com/photos/30697/pexels-photo-30697.jpg" alt="bottles" />
+*/
+
+.posts {
+  position: relative;
+  background-size: cover;
+  height: 250px;
+  display: flex;
+  align-items: flex-end;
+}
+
+#post-one {
+  background-image: url('https://static.pexels.com/photos/111085/pexels-photo-111085.jpeg');
+}
+
+#post-two {
+  background-image: url('https://static.pexels.com/photos/1862/summer-sunshine-alcohol-drink.jpg');
+}
+
+#post-three {
+  background-image: url('https://static.pexels.com/photos/185847/pexels-photo-185847.jpeg');
+}
+
+#post-four {
+  background-image: url('https://static.pexels.com/photos/30697/pexels-photo-30697.jpg');
+}
+
+#bottom-nav div {
+  display: inline-block;
+}
